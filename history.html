@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>History — AI Impact</title><link rel="stylesheet" href="style.css" /></head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand"><a href="index.html">AI Impact</a></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a><a href="what-is-ai.html">What is AI?</a><a href="everyday.html">Everyday</a><a href="future-work.html">Future</a><a href="ethics.html">Ethics</a><a href="stats.html">Stats</a><a href="bibliography.html">Bibliography</a>
+      </nav>
+      <button id="mobile-btn" class="mobile-toggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Historical Development</h1>
+    <p>A concise timeline of key milestones that shaped modern AI.</p>
+
+    <div class="timeline" style="margin-top:18px">
+      <div class="timeline-item card">
+        <div class="timeline-year">1950</div>
+        <div><strong>Turing Test</strong> — Alan Turing proposes a test for machine intelligence.</div>
+      </div>
+
+      <div class="timeline-item card">
+        <div class="timeline-year">1956</div>
+        <div><strong>Dartmouth Workshop</strong> — The birth of AI as an academic discipline.</div>
+      </div>
+
+      <div class="timeline-item card">
+        <div class="timeline-year">1997</div>
+        <div><strong>Deep Blue</strong> defeats world chess champion Garry Kasparov.</div>
+      </div>
+
+      <div class="timeline-item card">
+        <div class="timeline-year">2012</div>
+        <div><strong>Deep Learning Breakthroughs</strong> — Image recognition improvements spark renewed investment.</div>
+      </div>
+
+      <div class="timeline-item card">
+        <div class="timeline-year">2020s</div>
+        <div><strong>Large Language Models</strong> and foundation models enter mainstream use in products and research.</div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <div>© <span id="yr3"></span> AI Impact</div><div><a href="index.html">Home</a></div>
+  </footer>
+  <script>document.getElementById('yr3').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Impact — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand"><a href="index.html">AI Impact</a></div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="what-is-ai.html">What is AI?</a>
+        <a href="history.html">History</a>
+        <a href="everyday.html">AI in Everyday Life</a>
+        <a href="future-work.html">Future of Work</a>
+        <a href="ethics.html">Ethical Issues</a>
+        <a href="stats.html">Statistics & Trends</a>
+        <a href="bibliography.html">Bibliography</a>
+      </nav>
+
+      <button id="mobile-btn" class="mobile-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+    <div id="mobile-menu" style="display:none;padding:0 24px 12px">
+      <a href="what-is-ai.html">What is AI?</a> •
+      <a href="history.html">History</a> •
+      <a href="everyday.html">Everyday</a> •
+      <a href="future-work.html">Future</a> •
+      <a href="ethics.html">Ethics</a> •
+      <a href="stats.html">Stats</a> •
+      <a href="bibliography.html">Sources</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="hero">
+      <div class="left">
+        <h1>Artificial Intelligence — Impact & Future</h1>
+        <p>Explore how AI evolved, where it's used today, and what the future might hold for work, ethics, and society.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="stats.html">Explore Data</a>
+          <a class="btn btn-outline" href="what-is-ai.html">Learn More</a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="c:\Users\Dell\AppData\Local\Temp\eef31c7e-6e52-439a-9729-063215421ee1_futuristic-ai-technology-template-vector-disruptive-technology-blog-banner.zip.ee1\rm373batch5-banner-08.jpg" alt="AI concept" style="width:100%;border-radius:12px" />
+  
+      </div>
+    </section>
+
+    <section style="margin-top:28px">
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <div class="card" style="flex:1 1 280px">
+          <h3>What is AI?</h3>
+          <p>Definitions, branches, and key techniques.</p>
+          <p><a href="what-is-ai.html">Read →</a></p>
+        </div>
+        <div class="card" style="flex:1 1 280px">
+          <h3>Statistics & Trends</h3>
+          <p>Market size, adoption rates, and forecasts.</p>
+          <p><a href="stats.html">Explore →</a></p>
+        </div>
+        <div class="card" style="flex:1 1 280px">
+          <h3>Ethical Issues</h3>
+          <p>Bias, transparency, and accountability principles.</p>
+          <p><a href="ethics.html">Dive in →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:28px">
+      <h2>Featured Data</h2>
+      <p style="color:var(--muted)">Snapshot of global AI investment and adoption (sample figures).</p>
+      <div style="overflow:auto;margin-top:12px;">
+        <table class="table">
+          <thead>
+            <tr><th>Region</th><th>AI Investment (USD B)</th><th>Adoption Rate (%)</th><th>Top Use Case</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>North America</td><td>85</td><td>56</td><td>Conversational AI</td></tr>
+            <tr><td>Europe</td><td>34</td><td>40</td><td>Predictive Maintenance</td></tr>
+            <tr><td>Asia Pacific</td><td>120</td><td>62</td><td>Computer Vision</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container footer">
+    <div>© <span id="yr"></span> AI Impact — Educational Project </div>
+    <div>Built by Keya Patel • <a href="bibliography.html">Resources</a></div>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>

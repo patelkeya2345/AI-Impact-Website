@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Statistics & Trends — AI Impact</title><link rel="stylesheet" href="style.css" /></head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand"><a href="index.html">AI Impact</a></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a><a href="what-is-ai.html">What is AI?</a><a href="history.html">History</a><a href="everyday.html">Everyday</a><a href="future-work.html">Future</a><a href="ethics.html">Ethics</a><a href="bibliography.html">Bibliography</a>
+      </nav>
+      <button id="mobile-btn" class="mobile-toggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Statistics & Trends</h1>
+    <p>Curated figures summarizing the AI landscape. (Sample data — replace with live sources for production.)</p>
+
+    <div class="card" style="margin-top:18px;overflow:auto">
+      <table class="table">
+        <thead><tr><th>Metric</th><th>Value</th><th>Note</th></tr></thead>
+        <tbody>
+          <tr><td>Global AI Market (2024 est.)</td><td>USD 200B</td><td>Rapid growth driven by enterprise adoption</td></tr>
+          <tr><td>Top Spending Sector</td><td>Tech & Finance</td><td>Automation and cloud AI services</td></tr>
+          <tr><td>Most Used Technique</td><td>Deep Learning</td><td>Especially for vision & language tasks</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px">
+      <div class="card">
+        <h3>Sample Dataset (Static)</h3>
+        <table class="table">
+          <thead><tr><th>Year</th><th>Investment (USD B)</th><th>Adoption (%)</th></tr></thead>
+          <tbody>
+            <tr><td>2021</td><td>50</td><td>30</td></tr>
+            <tr><td>2022</td><td>80</td><td>40</td></tr>
+            <tr><td>2023</td><td>120</td><td>50</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h3>Design Notes</h3>
+        <ul><li>Use clear headings and tables for statistics</li><li>Optimize images for performance</li><li>Provide CSV/JSON export for data pages in production</li></ul>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="container footer">
+    <div>© <span id="yr7"></span> AI Impact</div><div><a href="index.html">Home</a></div>
+  </footer>
+  <script>document.getElementById('yr7').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>

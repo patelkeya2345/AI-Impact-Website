@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>What is AI? — AI Impact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- header (same as index) -->
+  <header class="header">
+    <div class="container nav">
+      <div class="brand"><a href="index.html">AI Impact</a></div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="everyday.html">AI in Everyday Life</a>
+        <a href="future-work.html">Future of Work</a>
+        <a href="ethics.html">Ethical Issues</a>
+        <a href="stats.html">Statistics & Trends</a>
+        <a href="bibliography.html">Bibliography</a>
+      </nav>
+      <button id="mobile-btn" class="mobile-toggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>What is Artificial Intelligence?</h1>
+    <p>Artificial Intelligence (AI) is the field of computer science focused on building systems that perform tasks that typically require human intelligence — learning, reasoning, perception, and language understanding.</p>
+
+    <section style="margin-top:18px">
+      <div class="grid-3">
+        <div class="card">
+          <h4>Branches</h4>
+          <ul><li>Machine Learning (ML)</li><li>Natural Language Processing (NLP)</li><li>Computer Vision</li><li>Robotics</li></ul>
+        </div>
+        <div class="card">
+          <h4>Techniques</h4>
+          <ul><li>Supervised Learning</li><li>Unsupervised Learning</li><li>Reinforcement Learning</li><li>Deep Learning</li></ul>
+        </div>
+        <div class="card">
+          <h4>Characteristics</h4>
+          <ul><li>Adaptation</li><li>Generalization</li><li>Automation & Optimization</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <h2>Common Use Cases</h2>
+      <ol>
+        <li>Recommendation systems (e.g., streaming & e-commerce)</li>
+        <li>Conversational agents and customer support</li>
+        <li>Medical imaging & diagnostics</li>
+        <li>Autonomous vehicles and robotics</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <div>© <span id="yr2"></span> AI Impact</div>
+    <div><a href="index.html">Home</a></div>
+  </footer>
+  <script>document.getElementById('yr2').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>
